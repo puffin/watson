@@ -28,3 +28,25 @@ To setup Watson under Django add ``watson`` to your ``INSTALLED_APPS`` setting.
 The run ``manage.py drwatson`` to start the tester process. You can give an
 application label or test name using the same format as the built-in ``test``
 command.
+
+Options
+~~~~~~~
+
+``--nocolor`` : *flag, default: False*
+    Disable colored output.
+
+``-u``, ``--ui`` : *default: autodetect*
+    Force the use of a specific UI module. Available options are ``growl2`` and ``none``.
+
+
+UIs
+---
+
+Watson provides a UI to indicate the current test status after each run, even
+if the console is in the background.
+
+Growl 2
+~~~~~~~
+
+The default UI on OS X uses Growl 2 via AppleScript. A Growl 2 notification is
+posted after each test run. https://itunes.apple.com/us/app/growl/id467939042
