@@ -15,16 +15,16 @@ Installation
 
 Watson can be installed from PyPI using easy_install::
     
-    $ easy_install Watson
+    $ easy_install Watson-CT
     
 or pip::
     
-    $ pip install Watson
+    $ pip install Watson-CT
 
 Setup
 -----
 
 To setup Watson under Django add ``watson`` to your ``INSTALLED_APPS`` setting.
-The run ``manage.py watson`` to start the tester process. You can give an
+The run ``manage.py drwatson`` to start the tester process. You can give an
 application label or test name using the same format as the built-in ``test``
 command.

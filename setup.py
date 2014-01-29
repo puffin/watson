@@ -3,7 +3,7 @@ import os
 from setuptools import setup, find_packages
 
 setup(
-    name = 'Watson',
+    name = 'Watson-CT',
     version = '0.1.0',
     author = 'David Michon',
     author_email = 'david.michon@gmail.com',
