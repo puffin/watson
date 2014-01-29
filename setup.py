@@ -12,7 +12,7 @@ setup(
     url = 'http://github.com/puffin/watson',
     license='BSD',
     description='Continuous unit test runner for django',
-    long_description=open('README.txt').read(),
+    long_description=open('README.rst').read(),
     install_requires=[
         "Django >= 1.3",
         "colorama >= 0.2.7"
