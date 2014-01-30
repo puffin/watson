@@ -1,6 +1,13 @@
 import subprocess
+import colorama
+import sys
 
 from watson.ui.base import img_path, WatsonUI
+
+
+COLOR_EXCEPTION = colorama.Fore.RED
+COLOR_RESET = colorama.Fore.RESET
+
 
 class AppleScriptError(Exception):
     pass
@@ -66,9 +73,18 @@ class GrowlUI(WatsonUI):
     
     def __init__(self):
         self.has_growl = is_growl_running()
+
         if self.has_growl:
             register_app()
+        else:
+            print(COLOR_EXCEPTION + 'Growl2 is not installed or running. Head over to https://itunes.apple.com/us/app/growl/id467939042')
+            print(COLOR_RESET)
+            sys.exit(0)
     
+    @classmethod
+    def enabled(cls):
+        return is_growl_running()
+
     def notify(self, failure, title, msg, icon):
         self.has_growl
         if self.has_growl:

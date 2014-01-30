@@ -36,7 +36,7 @@ Options
     Disable colored output.
 
 ``-u``, ``--ui`` : *default: autodetect*
-    Force the use of a specific UI module. Available options are ``growl2`` and ``none``.
+    Force the use of a specific UI module. Available options are ``osx``, ``growl2`` and ``none``.
 
 
 UIs
@@ -45,8 +45,14 @@ UIs
 Watson provides a UI to indicate the current test status after each run, even
 if the console is in the background.
 
+OSX
+~~~
+
+The default UI on OS X uses terminal-notifier. A Native OSX notification is
+posted after each test run. Requires https://github.com/alloy/terminal-notifier
+
 Growl 2
 ~~~~~~~
 
-The default UI on OS X uses Growl 2 via AppleScript. A Growl 2 notification is
-posted after each test run. https://itunes.apple.com/us/app/growl/id467939042
+Use Growl 2 via AppleScript. A Growl 2 notification is
+posted after each test run. Requires https://itunes.apple.com/us/app/growl/id467939042

@@ -67,4 +67,5 @@ def load_ui(override):
         for ui in WatsonUIMeta.uis:
             if ui.enabled():
                 yield ui()
+                break
     
