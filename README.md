@@ -49,7 +49,7 @@ OSX
 ~~~
 
 The default UI on OS X uses terminal-notifier. A Native OSX notification is
-posted after each test run. It requires https://github.com/alloy/terminal-notifier command-line tool
+posted after each test run. It requires [a link](https://github.com/alloy/terminal-notifier) command-line tool
 
 Growl 2
 ~~~~~~~
