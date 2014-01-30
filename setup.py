@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'Watson-CT',
-    version = '0.2.0',
+    version = '0.2.1',
     author = 'David Michon',
     author_email = 'david.michon@gmail.com',
     packages = find_packages(),
@@ -14,7 +14,6 @@ setup(
     description='Continuous unit test runner for django',
     long_description=open('README.rst').read(),
     install_requires=[
-        "Django >= 1.3",
         "colorama >= 0.2.7"
     ]
 )
