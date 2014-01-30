@@ -49,10 +49,10 @@ OSX
 ~~~
 
 The default UI on OS X uses terminal-notifier. A Native OSX notification is
-posted after each test run. Requires https://github.com/alloy/terminal-notifier
+posted after each test run. It requires [`terminal-notifier`][HOMEPAGE] command-line tool
 
 Growl 2
 ~~~~~~~
 
 Use Growl 2 via AppleScript. A Growl 2 notification is
-posted after each test run. Requires https://itunes.apple.com/us/app/growl/id467939042
+posted after each test run. It requires https://itunes.apple.com/us/app/growl/id467939042
