@@ -1,7 +1,7 @@
 Watson
 ======
 
-Watson is a continuous unit test runner for django. As long as the script is running, it will monitor for changes in your code and re-run your test suite when needed.
+Watson is a continuous unit test runner for Django. As long as the script is running, it will monitor for changes in your code and re-run your test suite when needed.
 
 Features
 --------
@@ -14,11 +14,11 @@ Installation
 ------------
 
 Watson can be installed from PyPI using easy_install::
-    
+
     $ easy_install Watson-CT
-    
+
 or pip::
-    
+
     $ pip install Watson-CT
 
 Setup

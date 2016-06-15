@@ -9,7 +9,6 @@ from Queue import Empty
 from watson.ui import load_ui
 
 _SLEEP_TIME = 1
-
 MAGIC_RETURN_CODE = 254
 
 class ReloaderThread(Thread):
